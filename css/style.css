@@ -4,8 +4,8 @@
   --branco: #ffffff;
   --cinza: #f3f3f3;
   --cinza-escuro: #252525;
-  --vermelho: #c8102e;
-  --vermelho-escuro: #8d0b22;
+  --vermelho: #111111;
+  --vermelho-escuro: #333333;
   --texto: #1a1a1a;
   --texto-muted: #555555;
   --sombra: 0 12px 32px rgba(0, 0, 0, 0.12);
@@ -46,7 +46,7 @@ p {
 
 .navbar {
   background: rgba(0, 0, 0, 0.96) !important;
-  border-bottom: 3px solid var(--vermelho);
+  border-bottom: 3px solid var(--preto);
 }
 
 .navbar-brand {
@@ -63,7 +63,7 @@ p {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: var(--vermelho);
+  background: var(--preto);
   color: var(--branco);
   margin-right: 0.45rem;
   font-weight: 900;
@@ -79,7 +79,7 @@ p {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #ffced7 !important;
+  color: #d9d9d9 !important;
 }
 
 .hero-section {
@@ -161,8 +161,8 @@ p {
 }
 
 .badge-custom-dark {
-  background: rgba(200, 16, 46, 0.12);
-  color: var(--vermelho-escuro);
+  background: rgba(0, 0, 0, 0.06);
+  color: var(--preto-suave);
 }
 
 .btn-custom {
@@ -174,13 +174,15 @@ p {
 }
 
 .btn-danger {
-  background: var(--vermelho);
-  border-color: var(--vermelho);
+  background: var(--preto);
+  border-color: var(--preto);
+  color: var(--branco);
 }
 
 .btn-danger:hover {
   background: var(--vermelho-escuro);
   border-color: var(--vermelho-escuro);
+  color: var(--branco);
 }
 
 .btn-outline-light:hover {
@@ -196,7 +198,7 @@ p {
   background: linear-gradient(135deg, var(--preto), #1f1f1f);
   color: var(--branco);
   padding: 90px 0 70px;
-  border-bottom: 3px solid var(--vermelho);
+  border-bottom: 3px solid var(--preto);
 }
 
 .page-banner--compact {
@@ -233,8 +235,8 @@ p {
 
 .form-control:focus,
 .form-select:focus {
-  border-color: var(--vermelho);
-  box-shadow: 0 0 0 0.2rem rgba(200, 16, 46, 0.15);
+  border-color: var(--preto);
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.12);
 }
 
 .table {
@@ -250,7 +252,7 @@ p {
   background: #0b0b0b;
   color: rgba(255,255,255,0.8);
   padding: 28px 0;
-  border-top: 3px solid var(--vermelho);
+  border-top: 3px solid var(--preto);
 }
 
 .footer a {

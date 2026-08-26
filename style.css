@@ -6,15 +6,15 @@
 }
 
 :root {
-    --green-900: #153d2d;
-    --green-700: #216e4e;
-    --green-500: #2e9f6d;
-    --green-200: #dff7eb;
-    --gray-900: #1d2a2d;
-    --gray-700: #415157;
+    --green-900: #000000;
+    --green-700: #111111;
+    --green-500: #111111;
+    --green-200: #f3f3f3;
+    --gray-900: #ffffff;
+    --gray-700: #ffffff;
     --gray-200: #edf2f2;
     --white: #ffffff;
-    --shadow: 0 10px 30px rgba(21, 61, 45, 0.12);
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
 html {
@@ -76,6 +76,7 @@ header {
     background: var(--green-500);
     border-radius: 50%;
     font-size: 1.1rem;
+    color: var(--white);
 }
 
 .nav-menu {
@@ -511,4 +512,23 @@ footer {
     .btn {
         width: 100%;
     }
+}
+body {
+  font-size: 18px;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 800px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
 }
